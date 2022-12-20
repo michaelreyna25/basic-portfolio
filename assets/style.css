@@ -2,7 +2,70 @@
     box-sizing: border-box;
 }
 
+header {
+    height: 150px;
+    width: 100%;
+    background-color: rgb(204, 173, 134);
+    display: flex;
+    justify-content: space-around;
+}
 
+header img {
+    height: 150px;
+    width: 100px;
+    
+}
 
+h1{
+    font-size: 67px;
+    text-align: right;
+}
 
+header ul{
+    color:black;
+    font-size: 25px;
+}
 
+header ul li{
+    display: inline;
+}
+
+main{
+    height: 100vh;
+    background-color: rgb(116, 110, 110);
+}
+
+.About-Me{
+    display: flex;
+}
+
+.About-Me h2{
+    font-size: 45px;
+    width: auto;
+}
+
+.About-Me p{
+    font-size: medium;
+}
+
+.Work{
+    display: flex;
+    margin-top: 20px;
+}
+
+.Work h2{
+    font-size: 45px;
+    width: auto;
+}
+
+.Cards{
+    display: flex;
+}
+
+.card{
+    
+    height: 150px;
+    width: 125px;
+    margin: 15px;
+    background-color: rgb(231, 167, 167);
+}
