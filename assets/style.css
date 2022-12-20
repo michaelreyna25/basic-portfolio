@@ -11,8 +11,8 @@ header {
 }
 
 header img {
-    height: 150px;
-    width: 100px;
+    height: auto;
+    width: auto;
     
 }
 
@@ -58,16 +58,25 @@ main{
     width: auto;
 }
 
-.Contact
+.Contact{
+    
+}
 
 .Cards{
     display: flex;
 }
 
-.card{
+.card {
     
     height: 150px;
-    width: 125px;
-    margin: 15px;
+    width: 100px;
+    padding: 10px 10px;
+    margin: 20px 20px;
     background-color: rgb(231, 167, 167);
+}
+
+.card img{
+    display: flex;
+    height: 100%;
+    width: 100%;
 }
